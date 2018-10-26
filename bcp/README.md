@@ -5,7 +5,7 @@
 Create database using `ddl.sql`. Then execute the `bcp` command to import the data in `people.csv`.
 
 ``` /bin/bash
-bcp master.dbo.PeopleBcp in people.csv -T -c -t ,
+bcp PeopleBcp in people.csv -T -c -t ,
 ```
 
 Verify results:
